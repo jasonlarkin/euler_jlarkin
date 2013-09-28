@@ -1,0 +1,13 @@
+Google Interview: Software Engineer in Test
+Efficiently implement 3 stacks in a single array.
+Given an array of integers which is circularly sorted, how do you find a given integer.
+Write a program to find depth of binary search tree without using recursion.
+Find the maximum rectangle (in terms of area) under a histogram in linear time.
+Most phones now have full keyboards. Before there there three letters mapped to a number button. Describe how you would go about implementing spelling and word suggestions as people type.
+Describe recursive mergesort and its runtime. Write an iterative version in C++/Java/Python.
+How would you determine if someone has won a game of tic-tac-toe on a board of any size?
+Given an array of numbers, replace each number with the product of all the numbers in the array except the number itself *without* using division.
+Create a cache with fast look up that only stores the N most recently accessed items.
+How to design a search engine? If each document contains a set of keywords, and is associated with a numeric attribute, how to build indices?
+Given two files that has list of words (one per line), write a program to show the intersection.
+What kind of data structure would you use to index annagrams of words? e.g. if there exists the word “top” in the database, the query for “pot” should list that.

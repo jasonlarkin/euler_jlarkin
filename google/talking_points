@@ -2,13 +2,14 @@ chromebook + cloud computing and development
 google cloud computing
 https://developers.google.com/compute/docs/gcutil/
 
-google glass + development
+
+google glass ability to code, voice control
 
 
 %------------------------------------------------------------
 data mining 
 
-extract data structure from PDF
+extract data structure from .pdf
 http://www.zotero.org/support/dev/server_api/v2/read_requests
 
 +
@@ -17,4 +18,8 @@ find ~/Dropbox/ntpl-paper/disorder/used/ -name '*.pdf'
 -exec pdftotext {} - \; | grep "Boson peak" 
 > ~/Dropbox/ntpl-paper/search_Boson_peak.txt
 %------------------------------------------------------------
+
+Google+ latex support
+
+
 

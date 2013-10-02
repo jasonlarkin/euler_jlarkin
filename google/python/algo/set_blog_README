@@ -1,0 +1,27 @@
+#http://www.impactinterview.com/2009/10/140-google-interview-questions/
+
+October 14, 2011 at 4:06 am, Mihai Roman said:
+
+1. You have a stream of infinite queries (ie: real time Google search queries that people are entering). Describe how you would go about finding a good estimate of 1000 samples from this never ending set of data and then write code for it.
+
+and
+
+There is a linked list of numbers of length N. N is very large and you don’t know N. You have to write a function that will return k random numbers from the list. Numbers should be completely random. Hint: 1. Use random function rand() (returns a number between 0 and 1) and irand() (return either 0 or 1) 2. It should be done in O(n).
+
+Solution: reservoir sampling: http://dailyjobquestions.com/2011/10/08/reservoir-sampling/
+
+2. Write a function (with helper functions if needed) called to Excel that takes an excel column value (A,B,C,D…AA,AB,AC,… AAA..) and returns a corresponding integer value (A=1,B=2,… AA=26..).
+
+Solution: http://dailyjobquestions.com/2011/10/12/excel-columns/
+
+3. You are given a list of numbers. When you reach the end of the list you will come back to the beginning of the list (a circular list). Write the most efficient algorithm to find the minimum number in this list. Find any given number in the list. The numbers in the list are always increasing but you don’t know where the circular list begins, i.e.: 38, 40, 55, 89, 6, 13, 20, 23, 36.
+
+Solution: O(log(n)) considering that you can randomly access the elements of the list:
+http://dailyjobquestions.com/2011/10/13/circular-binary-search/
+
+4. Maximum sub-sequence, maximum sub-matrix, LCS, LIS:
+Solutions: http://dailyjobquestions.com/tags.html#dynamic%20programming
+
+5. There is an array A[N] of N numbers. You have to compose an array Output[N] such that Output[i] will be equal to multiplication of all the elements of A[N] except A[i]. For example Output[ 0 ] will be multiplication of A[ 1 ] to A[N-1] and Output[ 1 ] will be multiplication of A[ 0 ] and from A[ 2 ] to A[N – 1]. Solve it without division operator and in O(n).
+
+Solution: http://dailyjobquestions.com/2011/10/11/vector-multiplication/
